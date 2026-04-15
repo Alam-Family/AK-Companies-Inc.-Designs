@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="ifavicon.png">
+
+    <title>AK Companies Inc. Designs</title>
+    
+<style>
+/* GLOBAL STYLING */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #0a2e1f, #0f3d2a, #0a2e1f);
+    color: #f5f5f5;
+    text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 1px 20px;
+}
+
+/* NEW LOGO + TITLE WRAPPER */
+.site-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.title-logo {
+    width: 42px;
+    height: 42px;
+    filter: drop-shadow(0 0 10px rgba(232, 209, 139, 0.8));
+}
+
+.brand-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #e8d18b;
+    text-shadow: 0 0 12px rgba(232, 209, 139, 0.6);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #d8d8d8;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 12px 26px;
+    border-radius: 6px;
+    background: #e8d18b;
+    color: #0a2e1f;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #f4e3a3;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #e8d18b;
+    color: #e8d18b;
+}
+
+.btn-outline:hover {
+    background: #e8d18b;
+    color: #0a2e1f;
+}
+
+/* SECTION TITLES */
+section h2 {
+    font-size: 2rem;
+    color: #e8d18b;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(232, 209, 139, 0.5);
+}
+
+/* SERVICES GRID */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(232, 209, 139, 0.2);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border-color: #e8d18b;
+}
+
+/* WHY US */
+.why-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-us li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* PORTFOLIO */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.portfolio-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(232, 209, 139, 0.2);
+}
+
+/* CONTACT FORM */
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.contact button {
+    padding: 12px;
+    background: #e8d18b;
+    color: #0a2e1f;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #f4e3a3;
+}
+
+.payment-note {
+    font-size: 0.9rem;
+    color: #e8d18b;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    color: #cfcfcf;
+    font-size: 0.9rem;
+}
+
+.basmalah {
+    font-size: 3.2rem;
+    color: #e8d18b;
+    text-shadow: 0 0 18px rgba(232, 209, 139, 0.6);
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: "Scheherazade New", "Traditional Arabic", serif;
+}
+</style>
+
+    <style>
+        .portfolio-item {
+            color: #e8d18b;
+            text-decoration: none;
+            display: block;
+            padding: 20px;
+            border: 1px solid #e8d18b;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .portfolio-item:hover {
+            background: rgba(232, 209, 139, 0.1);
+            transform: translateY(-3px);
+        }
+
+.email-note {
+    font-size: 1.1rem;
+    color: #e8d18b;
+    margin-top: 20px;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #e8d18b;
+    color: #0a2e1f;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 6px;
+    transition: 0.3s;
+}
+
+.email-button:hover {
+    background: #f4e3a3;
+}
+
+    </style>
+</head>
+
+<body>
+
+<div class="basmalah">
+    بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+</div>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+
+        <div class="site-title">
+            <img src="ifavicon.png" alt="Logo" class="title-logo">
+            <h1 class="brand-title">AK Companies Inc. Designs</h1>
+        </div>
+
+        <p class="subtitle">Elegant websites, logos, and branding crafted with intention.</p>
+
+        <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+            <a href="#contact" class="btn btn-outline">Request a Design</a>
+        </div>
+    </header>
+
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <h2>What We Create</h2>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Custom Websites</h3>
+                <p>Clean, responsive, and built with purpose.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Logo Design</h3>
+                <p>Modern, elegant, and tailored to your brand.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Brand Identity Kits</h3>
+                <p>Fonts, colors, icons, and style guides.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Business Cards</h3>
+                <p>Professional designs ready for print.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-us">
+        <h2>Why Choose Us</h2>
+
+        <ul>
+            <li>Intentional, meaningful designs</li>
+            <li>Clean, elegant aesthetic</li>
+            <li>Fast delivery</li>
+            <li>Affordable packages</li>
+            <li>Part of the AK Companies Inc. family</li>
+        </ul>
+    </section>
+
+
+    <!-- PORTFOLIO PREVIEW -->
+    <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+
+        <a href="https://bespoke-lokum-9611cd.netlify.app/" target="_blank" class="portfolio-item">
+            Sūrah Quiz Website
+        </a>
+
+        <a href="https://transcendent-longma-4ccd15.netlify.app/" target="_blank" class="portfolio-item">
+            'Islāmic Multi-Purpose Objectives Dashboard
+        </a>
+
+        <a href="https://ak-designs-homepage.netlify.app" target="_blank" class="portfolio-item">
+            Submit your request to have your website here!
+        </a>
+
+    </div>
+</section>
+
+
+    <!-- CONTACT FORM -->
+<p class="email-note">
+    Please kindly email me 
+    <a href="mailto:abubakralam@outlook.com" class="email-button">
+        here
+    </a> 
+    to give your requests. Please remember that this will be rendered as a purchase.
+</p>
+    <p class="payment-note">
+        Work begins after payment is confirmed. We will contact you, inshā’Allāh, with details after you submit your request. Also, the price must be determined after the request is submitted.
+    </p>
+
+ <p class="payment-note">
+        Please also take note that you will <b>not</b> have an instant domain. Such as, if you wish to make a website for a Masjid, it will not be masjid.org or masjid.com. It will be something more like https://bespoke-lokum-9611cd.netlify.app/ 'inshā'Allāh. To get the specific website title you want, you will have to purchase your domain. Jazākumullāhu Khairan.
+    </p>
+</section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>AK Companies Inc. Designs</p>
+        <p>Part of the AK Companies Inc. family</p>
+        <p>© 2026 All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
